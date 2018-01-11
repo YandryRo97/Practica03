@@ -10,8 +10,8 @@ import java.util.List;
 import modelo.Casa;
 import modelo.Propietario;
 import libreria.Diccionario;
-import Listar.Lista;
-import Listar.Nodo;
+import Lista.Lista;
+
 import java.util.HashMap;
 import java.util.Map;
 /**
@@ -27,10 +27,6 @@ public class GestionDato {
         this.casaList = casaList;
         this.hasPropietario = hasPropietario;
     }
-
-    
-
-    
 
     public List<Casa> getCasaList() {
         return casaList;
