@@ -68,7 +68,7 @@ public class Principal {
         l.eliminarElemento(c2);
         
         //Recuperar ELementos
-        List<Casa> listaCasa= l.recuperarElementos();
+        List<Casa> listaCasa= l.recuperacionDElementos();
         for(int i=0;i<listaCasa.size();i++){
             System.out.println(listaCasa.get(i).toString());
         }
